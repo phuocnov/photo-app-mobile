@@ -16,9 +16,9 @@ export default ({ layout, backgrounds, fonts }: ComponentTheme) => {
 			borderRadius: 35,
 		},
 		circle250: {
-			borderRadius: 140,
-			height: 250,
-			width: 250,
+			borderRadius: 200,
+			height: 310,
+			width: 310,
 		},
 	} as const satisfies AllStyle;
 };
